@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.scss";
 import Image from "next/image";
+import { SignInButton } from "../SignInButton";
 
 export function Header() {
   return (
@@ -11,6 +12,7 @@ export function Header() {
           <a className={styles.active}>Home</a>
           <a>Posts</a>
         </nav>
+        <SignInButton />
       </div>
     </header>
   );
