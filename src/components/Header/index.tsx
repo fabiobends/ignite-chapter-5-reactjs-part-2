@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./styles.module.scss";
-import Image from "next/image";
 import { SignInButton } from "../SignInButton";
 
 export function Header() {
